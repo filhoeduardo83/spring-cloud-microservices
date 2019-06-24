@@ -1,0 +1,75 @@
+package com.in28minutes.microservices.currencyexchangeservice;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class ExchangeValue {
+	
+	@Id
+	private int id;
+	
+	@Column(name="currency-from2")
+	private String from2;
+	@Column(name="currency-to2")
+	private String to2;
+	private int currencyValue;
+	
+	
+	public ExchangeValue() {
+	}
+
+
+	public ExchangeValue(int id, String from2, String to2, int currencyValue) {
+		super();
+		this.id = id;
+		this.from2 = from2;
+		this.to2 = to2;
+		this.currencyValue = currencyValue;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+	
+	public String getfrom2() {
+		return from2;
+	}
+	
+	public String getto2() {
+		return to2;
+	}
+	
+	public int getCurrencyValue() {
+		return currencyValue;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public void setfrom2(String from2) {
+		this.from2 = from2;
+	}
+
+
+	public void setto2(String to2) {
+		this.to2 = to2;
+	}
+
+
+	public void setCurrencyValue(int currencyValue) {
+		this.currencyValue = currencyValue;
+	}
+	
+	
+
+	
+	
+}

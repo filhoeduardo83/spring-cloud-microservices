@@ -1,0 +1,18 @@
+package com.in28minutes.microservices.currencyexchangeservice;
+
+import java.math.BigDecimal;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyExchangeController {
+
+	
+	
+@GetMapping("currency-exchange/from/{from}/to/{to}")	
+public ExchangeValue exchangeValue() {
+	return new ExchangeValue(1, "EUR", "USA", BigDecimal.valueOf(65.00));
+}
+
+}

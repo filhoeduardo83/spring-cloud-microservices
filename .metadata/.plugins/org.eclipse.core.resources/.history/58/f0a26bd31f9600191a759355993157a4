@@ -1,0 +1,1 @@
+insert into exchange_value (id, from, to, currencyValue) values (1001,'USD','EUR', 88)
