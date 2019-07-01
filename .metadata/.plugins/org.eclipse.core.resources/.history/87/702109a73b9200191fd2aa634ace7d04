@@ -1,3 +1,0 @@
-insert into user (1,sysdate(,'Eduardo'));
-insert into user (2,sysdate(,'Dudu'));
-insert into user (3,sysdate(,'Fernanda'));

@@ -11,6 +11,19 @@ private String to;
 private BigDecimal conversionMultiple;
 private BigDecimal quantity;
 private BigDecimal totalCalculatedAmong;
+private int port;
+
+
+
+public int getPort() {
+	return port;
+}
+
+
+
+public void setPort(int port) {
+	this.port = port;
+}
 
 
 
@@ -20,7 +33,7 @@ public CurrencyConversionBean() {
 
 
 public CurrencyConversionBean(int id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
-		BigDecimal totalCalculatedAmong) {
+		BigDecimal totalCalculatedAmong, int port) {
 	super();
 	this.id = id;
 	this.from = from;
@@ -28,6 +41,8 @@ public CurrencyConversionBean(int id, String from, String to, BigDecimal convers
 	this.conversionMultiple = conversionMultiple;
 	this.quantity = quantity;
 	this.totalCalculatedAmong = totalCalculatedAmong;
+	this.port = port;
+
 }
 
 

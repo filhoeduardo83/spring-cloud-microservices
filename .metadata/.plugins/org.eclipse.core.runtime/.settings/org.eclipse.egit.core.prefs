@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/eduardo/Documentos/workspace-microservices/restful-web-services/.git\:
-GitRepositoriesView.GitDirectories.relative=restful-web-services/.git\:
+GitRepositoriesView.GitDirectories=/home/eduardo/Documentos/workspace-microservices/restful-web-services/.git\:/home/eduardo/Documentos/workspace-microservices/.git\:
+GitRepositoriesView.GitDirectories.relative=restful-web-services/.git\:.git\:
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="/home/eduardo/Documentos/workspace-microservices/spring-cloud-config-server"/>
 			<item value="/home/eduardo/Documentos/workspace-microservices"/>
+			<item value="/home/eduardo/Documentos/workspace-microservices/"/>
+			<item value="/home/eduardo/Documentos/workspace-microservices/spring-cloud-config-server"/>
 			<item value="/home/eduardo/Documentos/workspace-microservices/limits-service"/>
 		</list>
 		<list key="projectNameTemplate">
